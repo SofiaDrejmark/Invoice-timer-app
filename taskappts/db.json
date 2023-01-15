@@ -1,0 +1,148 @@
+{
+  "projects": [
+    {
+      "project": "School",
+      "completed": true,
+      "id": 1
+    },
+    {
+      "project": "Country house",
+      "completed": false,
+      "id": 2
+    },
+    {
+      "project": "Home",
+      "completed": false,
+      "id": 3
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Buy flowers",
+      "projectId": 2,
+      "completed": false,
+      "id": 3
+    },
+    {
+      "task": "Clean house",
+      "projectId": 2,
+      "completed": false,
+      "id": 4
+    },
+    {
+      "task": "Dust apartment",
+      "projectId": 3,
+      "completed": false,
+      "id": 5
+    },
+    {
+      "task": "Buy pencils for school",
+      "projectId": 1,
+      "completed": false,
+      "id": 6
+    },
+    {
+      "task": "Put up new tv",
+      "projectId": 3,
+      "completed": false,
+      "id": 7
+    },
+    {
+      "task": "Taske",
+      "projectId": 1,
+      "completed": false,
+      "id": 8
+    }
+  ],
+  "timelogs": [
+    {
+      "start": "Mon Nov 07 2022 18:30:16 GMT+0100 (centraleuropeisk normaltid)",
+      "stop": "Mon Nov 07 2022 18:30:17 GMT+0100 (centraleuropeisk normaltid)",
+      "time": 60134,
+      "taskId": 6,
+      "id": 2
+    },
+    {
+      "start": "Mon Jan 07 2021 18:30:16 GMT+0100 (centraleuropeisk normaltid)",
+      "stop": "Sun Jan 07 2021 18:30:17 GMT+0100 (centraleuropeisk normaltid)",
+      "time": 81200,
+      "taskId": 5,
+      "id": 3
+    },
+    {
+      "start": "Mon Dec 05 2022 00:08:41 GMT+0100 (centraleuropeisk normaltid)",
+      "stop": "Mon Dec 05 2022 00:08:43 GMT+0100 (centraleuropeisk normaltid)",
+      "time": 90233,
+      "taskId": 7,
+      "id": 4
+    },
+    {
+      "start": "Mon Dec 05 2022 00:19:38 GMT+0100 (centraleuropeisk normaltid)",
+      "stop": "Mon Dec 05 2022 00:19:49 GMT+0100 (centraleuropeisk normaltid)",
+      "time": 11000,
+      "taskId": 4,
+      "id": 6
+    },
+    {
+      "start": "Mon Dec 05 2022 00:19:38 GMT+0100 (centraleuropeisk normaltid)",
+      "stop": "Mon Dec 05 2022 00:19:49 GMT+0100 (centraleuropeisk normaltid)",
+      "time": 115400,
+      "taskId": 8,
+      "id": 7
+    },
+    {
+      "start": "Wed Dec 07 2022 20:57:28 GMT+0100 (centraleuropeisk normaltid)",
+      "stop": "Wed Dec 07 2022 20:57:44 GMT+0100 (centraleuropeisk normaltid)",
+      "time": 71600,
+      "taskId": 3,
+      "id": 8
+    },
+    {
+      "start": "Sun Jan 15 2023 16:54:06 GMT+0100 (Central European Standard Time)",
+      "stop": "Sun Jan 15 2023 16:54:13 GMT+0100 (Central European Standard Time)",
+      "time": 7,
+      "taskId": 4,
+      "id": 9
+    }
+  ],
+  "invoices": [
+    {
+      "status": "unpaid",
+      "customer": "sofia",
+      "daysLeft": 30,
+      "price": 100,
+      "totalprice": 0,
+      "timelogId": 2,
+      "id": 1
+    },
+    {
+      "status": "unpaid",
+      "customer": "hej",
+      "daysLeft": 30,
+      "price": 200,
+      "totalprice": 1118,
+      "timelogId": 2,
+      "id": 3
+    },
+    {
+      "taskId": "5",
+      "status": "unpaid",
+      "customer": "Anna",
+      "daysLeft": 30,
+      "price": 200,
+      "totalprice": 3340,
+      "timelogId": 2,
+      "id": 8
+    },
+    {
+      "taskId": "6",
+      "status": "unpaid",
+      "customer": "Fia",
+      "daysLeft": 30,
+      "price": 350,
+      "totalprice": 5846,
+      "timelogId": 2,
+      "id": 9
+    }
+  ]
+}

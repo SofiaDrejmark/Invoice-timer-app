@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: normal;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover, button:hover {
+cursor: pointer;
+}
+
+.rootNav {
+  background-color: rgb(56, 161, 242);
+  padding: 1.4em;
+}
+
+.rootNav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rootNav > ul > li > a > h4 {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.rootNav > ul > li > a > h4:hover {
+ 
+  color: rgb(188, 190, 201);
+}
+
+.bodyDiv {
+  margin-left: 2em;
+  font-size: 1.4rem;
+  flex-direction: column;
+}
+
+button {
+  padding: 0.3em;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background-color: rgb(74, 74, 139);
+}
+
+.homeRoot {
+  background-color: rgb(56, 161, 242);
+  padding: 1em;
+  text-align: center;
+}
+.homeRoot > a > svg {
+  color: #fff;
+  font-size: 4rem;
+}
+
+.homeRoot > a:hover {
+  color: rgb(235, 235, 239);
+}
+
+.homeRoot > a:active,
+ .rootNav > ul > li a > h4:active {
+color:rgb(114, 113, 113);
+}
+
+.amountDiv {
+  padding-top: 3em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid gray;
+  padding-left: 2em;
+}
+
+.amountDiv > svg {
+  font-size: 3em;
+  padding-right: 1em;
+}
+
+.feedUl {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid gray;
+}
+
+.projectsLi,
+.tasksLi,
+.invoicesLi {
+color: #000;
+margin:1em;
+}
+
+.goToInvoiceDiv > a > h3 {
+  color: white;
+}
+
+.goToInvoiceDiv {
+  background-color: rgba(213, 233, 251, 0.642);
+  margin: 2em;
+  border-radius: 5px;
+  max-width: 15em;
+  max-height: 10em;
+  min-height: 5em;
+  background-color: rgb(59, 59, 145);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.invoiceH2 {
+  font-size: 2.4rem;
+  font-family: monospace;
+  color: #fff;
+}
+
+.introP {
+  max-width: 38em;
+  margin-right:3em ;
+}
+
+.feedImg {
+    margin-right: 3em;
+  margin-top: 2em;
+  max-width: 350px;
+  box-shadow: rgba(11, 11, 14, 0.493) 0px 8px 10px 0px;
+}
+
+
+
+.welcomeSpan {
+  font-size: 3rem;
+  color: rgb(59, 59, 145);
+}
+
+.timelogUl > h5 {
+  font-size: 1.6rem;
+  color: rgb(29, 29, 77);
+}
+
+.timelogUl {
+  background-color: antiquewhite;
+  border-radius: 5px;
+  padding: 1em;
+  margin-bottom: 2em;
+  margin-right: 2em;
+  font-size: 1rem;
+}
+
+.introSection {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+form >label {
+    font-size: 1rem;
+}
+
+ form{
+    display: flex;
+    flex-direction: column;
+    max-width: 15em;
+    
+  
+}
+
+.invoices {
+font-size: 1rem;
+display: flex;
+flex-direction: column;
+}
+
+.bodyDivNew{
+margin-top: 3em;
+font-size: 1.4rem;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.overwiewNav > ul {
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 1em;
+   border-bottom:rgb(188, 190, 201) 1px solid;
+   margin-bottom: 2em;
+}
+
+.addProjectDiv  {
+display: flex;
+justify-content: center;
+}
+
+.addProjectDiv > button {
+    background-color: rgb(225, 236, 247);
+    color:#000;
+    padding:1em;
+    width: 10em;
+}
+
+.projects > h3{
+  margin-bottom: 1em; 
+}
+
+.projects > ul > li {
+    display: flex;
+    flex-direction: row;
+    max-width: 18em;
+    justify-content: space-between;
+    border-bottom: gray 0.5px solid;
+    margin-bottom: 0.5em;
+}
+
+.projects > ul > li > a{
+  color:#000;
+}
+
+.timerSection {
+    margin-top: 0.5em;
+  
+}
+
+.timerSection > h3{
+margin-bottom: 2em;
+text-align: center;
+}
+
+.timerSection > ul > li > a {
+    color:#000;
+}
+.timerSection > ul > li > a:hover {
+    color:rgb(85, 84, 84);
+}
+
+.timerSection > ul > li {
+    max-width: 15em;
+    border-bottom: 0.5px gray solid;
+}
+
+.timelogUl > li{
+    margin-bottom: 1em;
+}
+
+.taskDiv {
+    display: flex;
+    justify-content: space-between;
+    max-width: 30em;
+    font-size: 1.5rem;
+}
+
+.taskDiv > .checkbox {
+    width: 1.5em;
+
+}
+
+.taskLi {
+    border-bottom: gray 0.5px solid;
+    margin-bottom:1em ;
+    max-width: 30em;
+}
+
